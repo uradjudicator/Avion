@@ -1,14 +1,88 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background: #333;
     color: #fff;
 }
 
-.container{
+.container {
     margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* header */
+.header .top {
+    padding: 20px 28px;
+}
+
+.header .top .logo {
+    color: #22202E;
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header .bottom {
+    padding: 20px 0;
+}
+
+.header .bottom li {
+    color: #726E8D;
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* hero */
+.hero .wrapper{
+    /* gap: 98px; */
+}
+
+.hero .left {
+    background: #2A254B;
+    padding: 60px 0 60px 60px;
+    padding-right: 98px;
+}
+
+.hero .left .title {
+    max-width: 513px;
+    font-family: 'Raleway';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 41px;
+}
+
+.hero .left .btn{
+    background: #f9f9f926;
+    border-radius: 0;
+    padding: 16px 32px;
+    color: #fff;
+}
+
+.hero .left p{
+font-family: 'Nunito Sans';
+font-size: 18px;
+font-weight: 400;
+line-height: 150%;
 }
