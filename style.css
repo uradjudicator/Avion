@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background: #333;
-    color: #fff;
-}
-
 .container {
     margin: 0 auto;
 }
@@ -72,6 +67,7 @@ li {
     font-weight: 400;
     line-height: 140%;
     margin-bottom: 41px;
+    color: #fff;
 }
 
 .hero .left .btn {
@@ -86,12 +82,13 @@ li {
     font-size: 18px;
     font-weight: 400;
     line-height: 150%;
+    color: #fff;
+
 }
 
 /* different brand */
 .brand {
     padding: 60px 0 86px;
-    background-color: #333;
 }
 
 .brand .title {
@@ -125,9 +122,61 @@ li {
     margin: 16px 0 8px;
 }
 
-.brand .wrapper .card p{
+.brand .wrapper .card p {
     font-family: 'Nunito Sans';
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
+}
+
+
+/* ceramics  */
+.ceramics {
+    padding: 80px 0 56px;
+    color: #2A254B;
+}
+
+.ceramics .title {
+    margin-bottom: 33px;
+    font-family: 'Raleway';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ceramics .wrapper .card .image {
+    width: 305px;
+    height: 375px;
+    overflow: hidden;
+}
+
+.ceramics .wrapper .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.ceramics .wrapper .desc {
+    margin: 24px 0 8px;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.ceramics .wrapper .cost {
+    font-family: 'Nunito Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.ceramics .btn {
+    margin: 51px auto 0;
+    padding: 16px 32px;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    background: #F9F9F9;
 }
