@@ -23,6 +23,11 @@ li {
     list-style: none;
 }
 
+.card {
+    outline: none !important;
+    border: none !important;
+}
+
 /* header */
 .header .top {
     padding: 20px 28px;
@@ -107,7 +112,6 @@ li {
 }
 
 .brand .wrapper .card {
-    padding: 2px 0 0 2px;
     color: #2A254B;
     width: 270px;
     display: inline-flex;
@@ -173,6 +177,57 @@ li {
 
 .ceramics .btn {
     margin: 51px auto 0;
+    padding: 16px 32px;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    background: #F9F9F9;
+}
+
+
+/* products */
+.products {
+    padding: 64px 0 48px;
+}
+
+.products .title {
+    color: #2A254B;
+    font-family: 'Raleway';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 140%;
+    margin-bottom: 25px;
+}
+
+.products .card img:nth-child(1) {
+    height: 375px !important;
+}
+
+.products .card img {
+    border-radius: 0;
+}
+
+.products .card .desc {
+    color: #2A254B;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 24px 0 8px;
+}
+
+.products .card .cost {
+    color: #2A254B;
+    font-family: 'Nunito Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0;
+}
+
+.products .btn {
+    margin: 42px auto 0;
     padding: 16px 32px;
     font-family: 'Raleway';
     font-size: 16px;
