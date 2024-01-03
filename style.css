@@ -23,6 +23,15 @@ li {
     list-style: none;
 }
 
+.title {
+    font-family: 'Raleway';
+}
+
+.desc,
+.text {
+    font-family: 'Nunito Sans';
+}
+
 .card {
     outline: none !important;
     border: none !important;
@@ -67,7 +76,6 @@ li {
 
 .hero .left .title {
     max-width: 513px;
-    font-family: 'Raleway';
     font-size: 32px;
     font-weight: 400;
     line-height: 140%;
@@ -88,7 +96,6 @@ li {
     font-weight: 400;
     line-height: 150%;
     color: #fff;
-
 }
 
 /* different brand */
@@ -119,7 +126,6 @@ li {
 }
 
 .brand .wrapper .card h1 {
-    font-family: 'Raleway';
     font-size: 20px;
     font-weight: 400;
     line-height: 140%;
@@ -127,7 +133,6 @@ li {
 }
 
 .brand .wrapper .card p {
-    font-family: 'Nunito Sans';
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
@@ -142,7 +147,6 @@ li {
 
 .ceramics .title {
     margin-bottom: 33px;
-    font-family: 'Raleway';
     font-size: 32px;
     font-weight: 400;
     line-height: normal;
@@ -234,4 +238,91 @@ li {
     font-weight: 400;
     line-height: 150%;
     background: #F9F9F9;
+}
+
+/* info */
+.info {
+    background-color: #f9f9f9;
+    padding: 52px 0 65px;
+}
+
+.info .container {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 68px 0 54px;
+}
+
+.info .title {
+    font-family: "Raleway";
+    color: #2A254B;
+    font-size: 36px;
+}
+
+.info .text {
+    font-family: "Nunito Sans";
+    color: #2A254B;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 72px;
+    max-width: 470px;
+}
+
+.info .input-btn {
+    display: flex;
+}
+
+.info input {
+    width: 354px;
+    padding-left: 32px;
+    opacity: 0.2;
+}
+
+.info .btn {
+    background-color: #2A254B;
+    display: flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #fff;
+    border-radius: 0;
+}
+
+
+/* get in touch */
+.get-touch .left {
+    padding: 72px 100px 54px 84px;
+}
+
+.get-touch .left h1 {
+    color: #2A254B;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.get-touch .left p {
+    margin-top: 25px;
+    color: #505977;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.get-touch .left .btn {
+    width: 155px;
+    padding: 16px 32px;
+    background: #f9f9f9;
+    color: #2A254B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.get-touch .right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
