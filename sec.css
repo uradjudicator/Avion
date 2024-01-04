@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+.title {
+    font-family: 'Raleway';
+}
+
+.desc,
+.text {
+    font-family: 'Nunito Sans';
+}
+
+/* header */
+.header {
+    padding: 20px 28px;
+    border: 1px solid #0000001a;
+}
+
+.header .wrapper .logo {
+    color: #22202E;
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.header .wrapper a {
+    color: #726E8D;
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* view */
+.view{
+    padding: 80px 0 40px;
+}
+
+.view .title{
+    font-size: 36px;
+    line-height: 140%;
+    color: #2A254B;
+}
+
+.view .dropdowns .right p{
+    font-size: 14px;
+    color: #2A254B;
+    line-height: 150%;
+}
+.view .dropdowns .right .btn{
+    font-size: 16px;
+    font-family: 'Nunito Sans';
+    line-height: 150%;
+}
+
+.card{
+    border: none;
+}
+
+
