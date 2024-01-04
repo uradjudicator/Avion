@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+.title {
+    font-family: 'Raleway';
+}
+
+.desc,
+.text {
+    font-family: 'Nunito Sans';
+}
+
+.card,
+input{
+    outline: none !important;
+    border: none !important;
+}
